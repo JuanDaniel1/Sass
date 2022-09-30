@@ -37,6 +37,9 @@ En este repositorio se mostraran las anotaciones sobre todos los ejercicios desa
 
 ![image](https://user-images.githubusercontent.com/110575826/193164439-b2597218-aabc-4d76-9147-0e37b159b5cf.png)
 
+![image](https://user-images.githubusercontent.com/110575826/193168096-4c667b4f-0f8e-4e8e-8f53-7afa9e58016c.png)
+
+
 Se realizo el diseño responsive usando HTML, CSS y Sass para los cambios de colores y tamaños en grillas, asi mismo se utilizo las librerias de bootstrap y fueron descargadas en el codigo, para facilitar el acceso a todas las variantes que bootstrap ofrece.
 
 ## Proyecto Sass_Navbar
