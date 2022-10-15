@@ -1,0 +1,108 @@
+/////////////////////////
+///patron de colores
+///////////////////////////
+$principal: rgb(64, 129, 69);
+
+//////////////////////////////////
+//modificar variables
+///////////////////////////////////
+$primary: $principal;
+$enable-shadows: true;
+$enable-gradients: true;
+$btn-padding-y: 0.8rem;
+$btn-padding-x: 1.5rem;
+$btn-border-radius: 1rem;
+
+
+@import "../libs/bootstrap-5.2.0/scss/bootstrap";
+
+.btn-primary {
+    border-bottom: 5px solid rgba(10, 9, 9, 0.9);
+}
+
+.custom-class {
+    display: none;
+}
+
+@include media-breakpoint-up(xs) {
+    .custom-class {
+        display: block;
+        background-image: url("../img/17051.jpg");
+        height: 200px;
+        
+    }
+}
+
+
+@include media-breakpoint-up(sm) {
+.custom-class {
+    display: block;
+    background-image: url("../img/54338.jpg");
+    width: 300px;
+    height: 400px;
+
+    
+}
+}
+
+@include media-breakpoint-up(md) {
+.custom-class {
+    display: flex;
+    background-image: url("../img/mountains-7427623_1920.jpg");
+    height: 200px;
+    width: 500px;
+}
+}
+
+@include media-breakpoint-up(lg) {
+.custom-class {
+    display: flex;
+    background-image: url("../img/Glacial1.JPG");
+    height: 200px;
+    width: 1500px;
+
+}
+}
+@include media-breakpoint-up(xs) {
+    .custom-class2 {
+        display: block;
+        background-image: url("../img/17051.jpg");
+        height: 200px;
+
+        
+    }
+}
+
+
+@include media-breakpoint-up(sm) {
+.custom-class2 {
+    display: block;
+    background-image: url("../img/54338.jpg");
+    height: 200px;
+
+    
+}
+}
+
+@include media-breakpoint-up(md) {
+.custom-class2 {
+    display: flex;
+    background-image: url("../img/descarga.jpg");
+
+   
+}
+}
+
+@include media-breakpoint-up(lg) {
+.custom-class2 {
+    display: block;
+    background-image: url("../img/ocean-3605547__480.jpg");
+    height: 200px;
+
+}
+}
+
+
+
+
+
